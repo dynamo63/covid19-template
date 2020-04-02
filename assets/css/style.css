@@ -23,6 +23,10 @@
     background-color: #808080;
 }
 
+.bg-darken{
+    background:linear-gradient(to bottom,#00000080,#000000ab) !important;
+}
+
 .navbar{
     padding: 0;
     height: 10vh;
