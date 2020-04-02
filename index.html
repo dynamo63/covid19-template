@@ -5,16 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid19</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
-    <nav>
-        <!-- Navbar -->
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand bg-success p-2" href="#">COVID-19 INFO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-2">
+            <li class="nav-item mr-2 active">
+              <a class="nav-link text-white" href="#">Accueil</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link text-white" href="#">Articles</a>
+            </li>
+            <li class="nav-item mr-2">
+                <a href="#" class="nav-link text-white">Jeu</a>
+            </li>
+            <li class="nav-item mr-2">
+                <a href="#" class="nav-link text-white">Statistiques</a>
+            </li>
+            <li class="nav-item mr-2">
+                <a href="#" class="nav-link text-white">Documentation</a>
+            </li>
+            <li class="nav-item">
+                <form class="form-inline ">
+                    <div class="input-group input-group-sm mt-1">
+                        <input type="text" class="form-control" placeholder="Rechercher" aria-label="Rechercher" aria-describedby="button-search">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                          </button>
+                        </div>
+                      </div>
+                </form>
+            </li>
+          </ul>
+          <div class="help-covid d-flex align-items-center">
+              <div class="cloche mr-2 font-size-2">
+                  <i class="fa fa-bell-o text-danger" aria-hidden="true"></i>
+              </div>
+                <a class="contact-phone btn btn-success p-2 rounded-0" href="tel:1410">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                      Appeler le 1410
+                  </span>
+                </a>
+          </div>
+        </div>
+      </nav>
 
-    <header>
-        <!-- Banner -->
+    <header class="container mt-4 d-flex justify-content-between">
+        <div class="banner-info w-75">
+            <div class="card mb-3">
+                <iframe class="card-img-top" height="350px" src="https://www.youtube.com/embed/w2Qx_Ee_XAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <div class="card-title d-flex justify-content-between align-items-end">
+                      <h2>Le Covid n'existe pas</h2>
+                      <p class="small text-secondary">
+                          <span>101 vues</span>
+                          <span>25, mars 2018</span>
+                      </p>
+                    </div>
+                  <div class="card-text d-flex justify-content-between">
+                    <div class="banner-icons">
+                        <i class="fa fa-facebook-official text-primary mr-2 font-size-md" aria-hidden="true"></i>
+                        <i class="fa fa-whatsapp text-success mr-2 font-size-md" aria-hidden="true"></i>
+                        <i class="fa fa-share-alt font-size-md" aria-hidden="true"></i>
+                    </div>
+                    <div class="banner-valuation font-weight-bold">
+                        <span>25 <i class="fa fa-share-square-o" aria-hidden="true"></i></span>
+                        <span>115 likes</span>
+                        <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-stats w-25">
+            <h3 class="h6 text-center">Statistique COVID-19 au Gabon</h3>
+            <div class="banner-stats-content d-flex flex-wrap justify-content-around">
+                <div class="box rounded font-weight-bold bg-warning">
+                    <p class="h3 text-center">16</p>
+                    <p class="small">Contamine</p>
+                </div>
+                <div class="box rounded font-weight-bold bg-danger">
+                    <p class="h3 text-center">1</p>
+                    <p class="small">Mort</p>
+                </div>
+                <div class="box rounded font-weight-bold bg-success">
+                    <p class="h3 text-center">0</p>
+                    <p class="small">Gueris</p>
+                </div>
+                <div class="box rounded font-weight-bold bg-primary">
+                    <p class="h3 text-center">30</p>
+                    <p class="small">Cas Contactes</p>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
