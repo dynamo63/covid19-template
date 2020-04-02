@@ -27,8 +27,10 @@
     height: 2px;
     background-color: #808080;
 }
-
 /* ======= Navbar ================ */
+.bg-darken{
+    background:linear-gradient(to bottom,#00000080,#000000ab) !important;
+}
 
 .navbar{
     padding: 0;
