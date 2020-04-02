@@ -1,5 +1,10 @@
 /* Classes utilitaires */
 
+.container{
+    max-width: 95vw;
+    margin: auto;
+}
+
 .font-size-1{
     font-size: 1.2em;
 }
@@ -21,6 +26,10 @@
     margin: auto;
     height: 2px;
     background-color: #808080;
+}
+/* ======= Navbar ================ */
+.bg-darken{
+    background:linear-gradient(to bottom,#00000080,#000000ab) !important;
 }
 
 .navbar{
@@ -68,7 +77,9 @@ nav form.form-inline input::placeholder{
     font-weight: 600;
 }
 
-.container{
-    max-width: 95vw;
-    margin: auto;
-}
+
+/* ============== Articles =============== */
+
+/* .local-article > .d-flex > div{
+    width: 20%;
+} */
