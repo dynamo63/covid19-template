@@ -19,24 +19,24 @@
         <div class="collapse navbar-collapse container" id="navbarSupportedContent">
           <ul class="navbar-nav ml-2">
             <li class="nav-item mr-2 active">
-              <a class="nav-link text-white" href="#">Accueil</a>
+              <a class="nav-link text-white text-uppercase" href="#">Accueil</a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link text-white" href="#">Articles</a>
+              <a class="nav-link text-white text-uppercase" href="#">Articles</a>
             </li>
             <li class="nav-item mr-2">
-                <a href="#" class="nav-link text-white">Jeu</a>
+                <a href="#" class="nav-link text-white text-uppercase">Jeu</a>
             </li>
             <li class="nav-item mr-2">
-                <a href="#" class="nav-link text-white">Statistiques</a>
+                <a href="#" class="nav-link text-white text-uppercase">Statistiques</a>
             </li>
             <li class="nav-item mr-2">
-                <a href="#" class="nav-link text-white">Documentation</a>
+                <a href="#" class="nav-link text-white text-uppercase">Documentation</a>
             </li>
             <li class="nav-item">
                 <form class="form-inline ">
                     <div class="input-group input-group-sm mt-1">
-                        <input type="text" class="form-control" placeholder="Rechercher" aria-label="Rechercher" aria-describedby="button-search">
+                        <input type="text" class="form-control bg-secondary text-white border-0" placeholder="Rechercher" aria-label="Rechercher" aria-describedby="button-search">
                         <div class="input-group-append">
                           <button class="btn btn-outline-secondary" type="button" id="button-addon2">
                             <i class="fa fa-search" aria-hidden="true"></i>
@@ -62,8 +62,8 @@
 
     <header class="container mt-4 d-flex justify-content-between">
         <div class="banner-info w-75">
-            <div class="card mb-3">
-                <iframe class="card-img-top" height="350px" src="https://www.youtube.com/embed/w2Qx_Ee_XAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card mb-3 border-left-0 border-right-0">
+                <iframe class="card-img-top" height="450px" src="https://www.youtube.com/embed/w2Qx_Ee_XAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="card-body">
                     <div class="card-title d-flex justify-content-between align-items-end">
                       <h2>Le Covid n'existe pas</h2>
@@ -86,26 +86,102 @@
                   </div>
                 </div>
             </div>
+
+            <!-- D'autres info -->
+            <div class="banner-footer d-flex border-bottom p-1">
+
+                <div class="w-50 d-flex border-right">
+                    <div class="col-md-6">
+                        <img src="assets/img/img01.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="h6 font-weight-bold">Lorem ipsum dolor sit amet </h2>
+                        <p class="small">Lorem, ipsum.</p>
+                        <time class="small">Il y a 3 jours</time>
+                        <p class="text-right">
+                            120 <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="w-50 d-flex border-right">
+                    <div class="col-md-6">
+                        <img src="assets/img/img01.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="h6 font-weight-bold">Lorem ipsum dolor sit amet</h2>
+                        <p class="small">Lorem, ipsum.</p>
+                        <time class="small">Il y a 3 jours</time>
+                        <p class="text-right">
+                            120 <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="banner-stats w-25">
-            <h3 class="h6 text-center">Statistique COVID-19 au Gabon</h3>
-            <div class="banner-stats-content d-flex flex-wrap justify-content-around">
-                <div class="box rounded font-weight-bold bg-warning">
-                    <p class="h3 text-center">16</p>
-                    <p class="small">Contamine</p>
+
+        <!-- Pour les statistiques -->
+        <div class="banner-stats w-25 ml-3">
+            <h3 class="h6 text-center text-danger font-weight-bold border py-2 rounded">Statistique COVID-19 au Gabon</h3>
+            <div class="bg-gray p-2 rounded-lg">
+                <div class="banner-stats-content mb-1">
+                    <div class="d-flex justify-content-center">
+                        <div class="box rounded font-weight-bold m-1 bg-warning">
+                            <p class="h2 text-center">16</p>
+                            <p class="small">Contamine</p>
+                        </div>
+                        <div class="box rounded font-weight-bold m-1 bg-danger">
+                            <p class="h2 text-center">1</p>
+                            <p class="small">Mort</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="box rounded font-weight-bold m-1 bg-success">
+                            <p class="h2 text-center">0</p>
+                            <p class="small">Gueris</p>
+                        </div>
+                        <div class="box rounded font-weight-bold m-1 bg-primary">
+                            <p class="h2 text-center">30</p>
+                            <p class="small">Cas Contactes</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="box rounded font-weight-bold bg-danger">
-                    <p class="h3 text-center">1</p>
-                    <p class="small">Mort</p>
-                </div>
-                <div class="box rounded font-weight-bold bg-success">
-                    <p class="h3 text-center">0</p>
-                    <p class="small">Gueris</p>
-                </div>
-                <div class="box rounded font-weight-bold bg-primary">
-                    <p class="h3 text-center">30</p>
-                    <p class="small">Cas Contactes</p>
-                </div>
+                <a class="btn btn-primary active text-white w-100" href="#">
+                    Plus d'information sur ce cas
+                </a>
+
+                <div class="h-divider mt-2"></div>
+
+                <ul class="list-group font-weight-bold mt-2 overflow-auto p-1">
+                    <li class="list-group-item text-center rounded mb-1 pb-0 border">
+                        <time datetime="" class="text-danger">17 mars 2019</time>
+                        <p class="text-secondary">Identification du patient zero</p>
+                    </li>
+                    <li class="list-group-item text-center rounded mb-1 pb-0 border">
+                        <time datetime="" class="text-danger">17 mars 2019</time>
+                        <p class="text-secondary">Identification du patient zero</p>
+                    </li>
+                    <li class="list-group-item text-center rounded mb-1 pb-0 border">
+                        <time datetime="" class="text-danger">17 mars 2019</time>
+                        <p class="text-secondary">Identification du patient zero</p>
+                    </li>
+                    <li class="list-group-item text-center rounded mb-1 pb-0 border">
+                        <time datetime="" class="text-danger">17 mars 2019</time>
+                        <p class="text-secondary">Identification du patient zero</p>
+                    </li>
+                    <li class="list-group-item text-center rounded mb-1 pb-0 border">
+                        <time datetime="" class="text-danger">17 mars 2019</time>
+                        <p class="text-secondary">Identification du patient zero</p>
+                    </li>
+                    <li class="list-group-item text-center rounded mb-1 pb-0 border">
+                        <time datetime="" class="text-danger">17 mars 2019</time>
+                        <p class="text-secondary">Identification du patient zero</p>
+                    </li>
+                    <li class="list-group-item text-center rounded mb-1 pb-0 border">
+                        <time datetime="" class="text-danger">17 mars 2019</time>
+                        <p class="text-secondary">Identification du patient zero</p>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>

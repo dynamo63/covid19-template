@@ -12,6 +12,17 @@
     font-size: 2em;
 }
 
+.bg-gray{
+    background-color: #e4e0e0da;
+}
+
+.h-divider{
+    width: 40%;
+    margin: auto;
+    height: 2px;
+    background-color: #808080;
+}
+
 .navbar{
     padding: 0;
     height: 10vh;
@@ -23,6 +34,24 @@
     align-items: center;
 }
 
+nav form.form-inline input::placeholder{
+    color: #dddadacc;
+}
+
+/* ================ Banner  =================== */
+
+.banner-stats ul{
+    height: 50vh;
+}
+
+.banner-stats  ul::-webkit-scrollbar-track{
+    border-radius: 40px;
+}
+
+.banner-stats  ul::-webkit-scrollbar-thumb{
+    border-radius: 40px;
+}
+
 .box{
     width: 120px;
     height: 120px;
@@ -32,4 +61,14 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 1em;
+}
+
+.box > p:first-child{
+    font-size:2.1em;
+    font-weight: 600;
+}
+
+.container{
+    max-width: 95vw;
+    margin: auto;
 }
