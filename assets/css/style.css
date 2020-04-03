@@ -77,6 +77,10 @@ nav form.form-inline input::placeholder{
     font-weight: 600;
 }
 
+.extern-article .media img{
+    object-fit: cover;
+}
+
 
 /* ============== Articles =============== */
 
