@@ -1,0 +1,11 @@
+/* ============ Header ========== */
+
+.divider{
+    height: 2px;
+    flex-basis: 50%;
+}
+
+.nav-mobile > a{
+    height: 4vh;
+    font-size: .7em;
+}
