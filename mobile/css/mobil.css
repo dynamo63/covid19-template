@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 640px) {
+  .h2{
+  	padding-left: 10px;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+    font-size: 0.9rem;
+    color: #1C8ADE;
+  }
+  .h2 span{
+	font-weight: bold;
+  }  
+  .h3{
+  	font-weight: bold;
+  	font-size: 1rem;
+  }
+  .p{
+  	font-weight: 700;
+  	color: #1C8ADE;
+  }
+  .icon{
+  	width: 30px;
+  }
+
+  .footer{
+  	display: flex;
+  	justify-content: space-around;
+  }
+}

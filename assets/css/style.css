@@ -87,3 +87,9 @@ nav form.form-inline input::placeholder{
 /* .local-article > .d-flex > div{
     width: 20%;
 } */
+
+@media screen and (max-width: 640px) {
+ .h2 {
+    font-size: 1rem;
+  }
+}
