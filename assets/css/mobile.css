@@ -1,0 +1,28 @@
+/* ========= utilitaires ========== */
+
+.font-size-1{
+    font-size: .7em;
+}
+
+.font-size-2{
+    font-size: .9em;
+}
+
+.font-size-3{
+    font-size: .4em;
+}
+
+.bg-gray{
+    background-color: #f5ededf6;
+}
+
+/* ============ Header ========== */
+
+.divider{
+    height: 2px;
+    flex-basis: 50%;
+}
+
+.nav-mobile > a{
+    height: 4vh;
+}
