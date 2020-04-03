@@ -16,6 +16,14 @@
     background-color: #f5ededf6;
 }
 
+.bg-blue{
+    background-color: #0a25be;
+}
+
+.bg-darken{
+    background:linear-gradient(to bottom,#00000080,#000000ab);
+}
+
 /* ============ Header ========== */
 
 .divider{
@@ -25,4 +33,14 @@
 
 .nav-mobile > a{
     height: 4vh;
+}
+
+/* ============== Profil section ============== */
+
+.game-ranking img{
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+    border: 1.5px solid #0d74eb;
+    border-radius: 100px;
 }
