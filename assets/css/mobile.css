@@ -20,6 +20,10 @@
     background-color: #0a25be;
 }
 
+.bg-darken{
+    background:linear-gradient(to bottom,#00000080,#000000ab);
+}
+
 /* ============ Header ========== */
 
 .divider{
@@ -31,26 +35,12 @@
     height: 4vh;
 }
 
-/* ============ Banner Rappel ========== */
+/* ============== Profil section ============== */
 
-.rappel{
-    height: 5vh;
-    position: relative;
-    overflow-x: hidden;
-}
-
-.rappel > div:first-child{
-    z-index: 99;
-}
-
-.rappel-info{
-    /* position: absolute; */
-    display:block;
-    overflow-x: hidden;
-}
-
-.rappel-info > p{
-    position: absolute;
-    width: 200vw;
-    word-break: keep-all;
+.game-ranking img{
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+    border: 1.5px solid #0d74eb;
+    border-radius: 100px;
 }
