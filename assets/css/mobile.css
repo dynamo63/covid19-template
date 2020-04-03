@@ -16,6 +16,10 @@
     background-color: #f5ededf6;
 }
 
+.bg-blue{
+    background-color: #0a25be;
+}
+
 /* ============ Header ========== */
 
 .divider{
@@ -25,4 +29,28 @@
 
 .nav-mobile > a{
     height: 4vh;
+}
+
+/* ============ Banner Rappel ========== */
+
+.rappel{
+    height: 5vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.rappel > div:first-child{
+    z-index: 99;
+}
+
+.rappel-info{
+    /* position: absolute; */
+    display:block;
+    overflow-x: hidden;
+}
+
+.rappel-info > p{
+    position: absolute;
+    width: 200vw;
+    word-break: keep-all;
 }
