@@ -1,14 +1,18 @@
 /* ========= utilitaires ========== */
 
-.font-size-1{
+.font-size-sm{
+    font-size: .6em;
+}
+
+.font-size-sm1{
     font-size: .7em;
 }
 
-.font-size-2{
+.font-size-sm2{
     font-size: .9em;
 }
 
-.font-size-3{
+.font-size-tiny{
     font-size: .4em;
 }
 
@@ -24,6 +28,10 @@
     background:linear-gradient(to bottom,#00000080,#000000ab);
 }
 
+.is-orange{
+    color: #ffa500;
+}
+
 /* ============ Header ========== */
 
 .divider{
@@ -32,7 +40,7 @@
 }
 
 .nav-mobile > a{
-    height: 4vh;
+    height: 6vh;
 }
 
 /* ============== Profil section ============== */
