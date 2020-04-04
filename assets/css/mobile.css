@@ -1,14 +1,18 @@
 /* ========= utilitaires ========== */
 
-.font-size-1{
+.font-size-sm{
+    font-size: .6em;
+}
+
+.font-size-sm1{
     font-size: .7em;
 }
 
-.font-size-2{
+.font-size-sm2{
     font-size: .9em;
 }
 
-.font-size-3{
+.font-size-tiny{
     font-size: .4em;
 }
 
@@ -17,11 +21,15 @@
 }
 
 .bg-blue{
-    background-color: #0a25be;
+    background-color: #6177f3;
 }
 
 .bg-darken{
     background:linear-gradient(to bottom,#00000080,#000000ab);
+}
+
+.is-orange{
+    color: #ffa500;
 }
 
 /* ============ Header ========== */
@@ -32,9 +40,35 @@
 }
 
 .nav-mobile > a{
-    height: 4vh;
+    height: 6vh;
 }
 
+/* ========= Section de rappel ============== */
+
+.reminder{
+    position: relative;
+    overflow-x: hidden;
+}
+
+.reminder-title{
+    position: absolute;
+}
+
+.reminder-content{
+    width: 500vw;
+}
+
+.reminder-content > p{
+    width: 200vw;
+}
+
+
+/* ==========Section article ======== */
+
+.articles .card img{
+    height: 150px;
+    object-fit: cover;
+}
 /* ============== Profil section ============== */
 
 .game-ranking img{
@@ -43,4 +77,10 @@
     object-fit: cover;
     border: 1.5px solid #0d74eb;
     border-radius: 100px;
+}
+
+/* ============= Section footer =========== */
+
+footer{
+    height: 8vh;
 }
